@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanalei';
+}
+
+span{
+    position: absolute;
+    color: rgb(134, 126, 98);
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+span:before{
+    content: 'Darkcode';
+    color: rgb(86, 116, 93);
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    transition: 0.9s;
+}
+
+span:hover::before{
+    width: 100%;
+}
