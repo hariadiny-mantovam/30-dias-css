@@ -84,10 +84,14 @@ ul li:hover span:nth-child(1){
 }
 
 #color-linkedin span{
-    background: #b4d3eb;
+    background: #2d80c0;
 }
 
 #color-insta span{
-    background: #dd8fbd;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to bottom, #833ab4,  #fd1d1d #fcb045,);
+    background: linear-gradient(to bottom, #833ab4, #fd1d1d, #fcb045);
+
+
 }
 
