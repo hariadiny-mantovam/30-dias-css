@@ -5,7 +5,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: rgb(194, 188, 188);
+    background: rgb(43, 42, 42);
 }
 
 .social-media a{
@@ -16,7 +16,7 @@ body{
     text-align: center;
     line-height: 100px;
     margin: 0 25px;
-    color: rgb(128, 34, 81);
+    color: rgb(7, 122, 78);
     transition: .4s linear;
     position: relative;
 }
