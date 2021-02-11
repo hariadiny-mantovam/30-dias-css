@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #302c2c;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pulse{
+    background: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 70px;
+    line-height: 100px;
+    color: #fff;
+    animation: animate 2s linear infinite;
+}
+
+
+@keyframes animate{
+    0%{
+        box-shadow: 0 0 0 0 rgb(125, 0, 0), 0 0 0 rgba(159, 4, 4, 0.7 );
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgb(172, 15, 15), 0 0 0 0 rgba(125,0 ,0, 0.7);
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgb(204, 104, 104), rgba(204, 104, 104, 0.7);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgb(138, 73, 73), rgba(143, 110, 110, 0);
+    }
+}
+
+
+
