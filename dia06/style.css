@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: rgb(37, 36, 36);
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20%;
+}
+
+li{
+    list-style-type: none;
+    font-size: 100px;
+    color: #484848;
+    letter-spacing: 20px;
+    font-family: 'Truculenta';
+    animation: animate 1.4s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        color: #484848;
+        text-shadow: none;
+    }
+    90%{
+        color: #484848;
+        text-shadow: none;
+    }
+    100%{
+        color: #00e1ff;
+        text-shadow: 0 0 0 7px #078af5, 0 0 0 90px #fffb09;
+    }
+}
+
+ul li:nth-child(1){
+    animation-delay: 0;
+}
+
+ul li:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+ul li:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+ul li:nth-child(4){
+    animation-delay: 0.3s;
+}
+
+ul li:nth-child(5){
+    animation-delay: 0.4s;
+}
+
+ul li:nth-child(6){
+    animation-delay: 0.5s;
+}
+
+ul li:nth-child(7){
+    animation-delay: 0.6s;
+}
+
+ul li:nth-child(8){
+    animation-delay: 0.7s;
+}
+
+ul li:nth-child(9){
+    animation-delay: 0.8s;
+}
