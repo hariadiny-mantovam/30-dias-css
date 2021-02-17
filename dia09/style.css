@@ -1,0 +1,58 @@
+body{
+    background: #151549;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pendulo{
+    border-top: 10px solid #585757;
+    display: flex;
+}
+
+.pendulo span{
+    display: block;
+    width: 3px;
+    height: 300px;
+    background: #585757;
+    margin: 0 29px;
+    position: relative;
+    transform-origin: top;
+}
+
+.pendulo span:before{
+    content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #585757;
+	transform: translateX(-50%);
+}
+
+.pendulo span:first-child{
+    animation: left-arm 2s ease-in infinite;
+}
+
+.pendulo span:last-child{
+    animation: right-arm 2s ease-in infinite 1s;
+}
+
+@keyframes left-arm{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(60deg);}
+    50%{transform: rotate(0deg);}
+    100%{transform: rotate(0deg);}
+}
+
+@keyframes right-arm{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(-60deg);}
+    50%{transform: rotate(0deg);}
+    100%{transform: rotate(0deg);}
+}
+
+
