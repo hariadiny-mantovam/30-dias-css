@@ -1,0 +1,27 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a075a0;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+span::before{
+    content: '';
+    animation: word-swith 3s linear ;
+}
+
+@keyframes word-swith{
+    0% {content: '💻'}
+
+    50%{content: '🍕';}
+
+    100%{content: '🎮';}
+}
